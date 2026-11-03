@@ -93,10 +93,9 @@ function switchTheme() {
 document.getElementById('themeBtn').addEventListener('click', switchTheme);
 
 // ---------- Screens ----------
-// The main link shows only the screens assigned so far; /full (or ?full) shows them all.
-// To open another screen on the main link, add it to ASSIGNED.
-const ASSIGNED = ['home', 'education'];
-const FULL = /^\/full\/?$/.test(location.pathname) || /[?&]full\b/.test(location.search);
+// This copy always shows every screen.
+const ASSIGNED = [];
+const FULL = true;
 const ALL = { home: 'Home', education: 'Education', experience: 'Experience', projects: 'Projects', skills: 'Skills', contact: 'Contact' };
 const order = Object.keys(ALL).filter(id => FULL || ASSIGNED.includes(id));
 const titles = Object.fromEntries(order.map(id => [id, ALL[id]]));

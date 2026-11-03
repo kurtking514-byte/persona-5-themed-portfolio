@@ -15,12 +15,9 @@ A one-screen-per-section site with a bold red, black and cream design inspired b
 | **Skills** | Languages, web and apps, AI, hardware, tools and work skills |
 | **Contact** | Email, GitHub and a downloadable resume |
 
-## Links
+## Live site
 
-- <https://kurtking.pages.dev> shows the screens assigned in class so far (Home and Education)
-- <https://kurtking.pages.dev/full> shows every screen
-
-To open another screen on the main link, add it to `ASSIGNED` at the top of the Screens section in `assets/js/main.js`.
+<https://kurtking514-byte.github.io/persona-5-themed-portfolio/>, hosted on GitHub Pages, with every section shown.
 
 ## Features
 
