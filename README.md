@@ -1,36 +1,22 @@
-# Kurt Magastino — Portfolio
+# Persona 5 Themed Portfolio
 
-Personal portfolio of **Kurt King D. Magastino**, BS Computer Science student at the University of the Cordilleras.
+A portfolio site by **Kurt King D. Magastino** with a bold red, black and cream design inspired by Persona 5 (original artwork only; no game assets).
 
-A one-screen-per-section site with a bold red, black and cream design inspired by the energy of Persona 5 (original artwork only; no game assets).
-
-## Sections
-
-| Tab | What's there |
-| --- | --- |
-| **Home** | Name, "I am a ___" word box, course, portrait |
-| **Education** | School ladder: College, Senior High, Junior High, Elementary, with photos and achievements |
-| **Experience** | Phone shop repair tech and barangay office assistant (SPES), with photo documentation |
-| **Projects** | Norman Cellphone Center, ROBERT0 and POSEIDON, plus B.A.L.O.N.G and Prompt Refiner, with photos and videos |
-| **Skills** | Languages, web and apps, AI, hardware, tools and work skills |
-| **Contact** | Email, GitHub and a downloadable resume |
-
-## Live site
-
-<https://kurtking514-byte.github.io/persona-5-themed-portfolio/>, hosted on GitHub Pages, with every section shown.
+**Live:** <https://kurtking514-byte.github.io/persona-5-themed-portfolio/>
 
 ## Features
 
-- Dark and light themes with an angular wipe transition, and a portrait for each
-- Persona-style motion: portrait impact, KK logo shuffle, speech-bubble captions
+- Dark and light themes with an angular wipe transition
+- Persona-style motion: portrait impact, logo shuffle, speech-bubble captions
 - Tabs, Prev/Next arrows and the ← / → keys to move between sections
-- Photo and video viewer for project and work documentation
-- Each section fits a single desktop screen; no scrolling
-- Plain HTML, CSS and JavaScript; no build step or framework
+- Photo and video viewer
+- Plain HTML, CSS and JavaScript; no build step
+
+## Use the design
+
+You're welcome to use this design for your own portfolio under the [MIT License](LICENSE). Swap in your own photos, text and resume, since those are personal and not covered by the license.
 
 ## Run it locally
-
-Any static file server works. With Python installed:
 
 ```bash
 python -m http.server 5173
@@ -38,28 +24,7 @@ python -m http.server 5173
 
 Then open <http://localhost:5173>.
 
-## Project structure
-
-```
-index.html            Page markup for all six sections
-assets/
-  favicon.svg         Tab icon (KK monogram)
-  css/style.css       Styles and themes
-  js/main.js          Section switching, theme switch, ladders, photo viewer
-  images/             Web-sized photos, logos and video posters
-  video/              Compressed project videos
-resume/
-  Kurt_Magastino_Resume.pdf
-  resume.html         Editable source of the resume (print to PDF)
-```
-
-Photos are resized for the web, with location data removed and sensitive details blurred.
-
 ## Credits
 
 - Fonts: [Anybody](https://fonts.google.com/specimen/Anybody) and [M PLUS Rounded 1c](https://fonts.google.com/specimen/M+PLUS+Rounded+1c) from Google Fonts
 - School logos belong to their respective schools
-
-## Contact
-
-kurtmagastino514@gmail.com · [github.com/kurtking514-byte](https://github.com/kurtking514-byte)
